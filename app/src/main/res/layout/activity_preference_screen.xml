@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/ic_background_filterscreen">
+
+    <TextView
+        android:id="@+id/tv_activity_name"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:text="@string/titelVoorkeuren"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/ib_reset_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_reset_button"
+        android:background="#0000"
+        android:contentDescription="@string/ibResetButtonDescription"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".PreferenceScreenActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:context=".PreferenceScreenActivity">
+
+            <Button
+                android:id="@+id/btn_Binnen"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#4F6C35"
+                android:text="@string/binnen"
+                android:textColor="#E6EE9C"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/btn_Buiten"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#4F6C35"
+                android:text="@string/buiten"
+                android:textColor="#E6EE9C"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/btn_Ochtend"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#4F6C35"
+                android:text="@string/ochtend"
+                android:textColor="#E6EE9C"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/btn_Middag"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#4F6C35"
+                android:text="@string/middag"
+                android:textColor="#E6EE9C"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/btn_Avond"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#4F6C35"
+                android:text="@string/avond"
+                android:textColor="#E6EE9C"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/btn_prijs0"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#4F6C35"
+                android:text="@string/prijs0"
+                android:textColor="#E6EE9C"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/btn_prijs1"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#4F6C35"
+                android:text="@string/prijs1"
+                android:textColor="#E6EE9C"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/btn_prijs2"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#4F6C35"
+                android:text="@string/prijs2"
+                android:textColor="#E6EE9C"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/btn_prijs3"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#4F6C35"
+                android:text="@string/prijs3"
+                android:textColor="#E6EE9C"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/btn_prijs4"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#4F6C35"
+                android:text="@string/prijs4"
+                android:textColor="#E6EE9C"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/btn_actief"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#4F6C35"
+                android:text="@string/actief"
+                android:textColor="#E6EE9C"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/btn_passief"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#4F6C35"
+                android:text="@string/passief"
+                android:textColor="#E6EE9C"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/btn_online"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#4F6C35"
+                android:text="@string/online"
+                android:textColor="#E6EE9C"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/btn_offline"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#4F6C35"
+                android:text="@string/offline"
+                android:textColor="#E6EE9C"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/btn_search"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#4F6C35"
+                android:text="@string/search"
+                android:textColor="#E6EE9C"
+                tools:targetApi="lollipop" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

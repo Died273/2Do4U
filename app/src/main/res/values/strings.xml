@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">2Do4U</string>
+    <string name="activiteitenzoeker">Activiteitenzoeker</string>
+    <string name="start">Start</string>
+    <string name="binnen">Binnen</string>
+    <string name="buiten">Buiten</string>
+    <string name="ochtend">Ochtend</string>
+    <string name="middag">Middag</string>
+    <string name="avond">Avond</string>
+    <string name="prijs0">Gratis</string>
+    <string name="prijs1">€</string>
+    <string name="prijs2">€€</string>
+    <string name="prijs3">€€€</string>
+    <string name="prijs4">€€€€</string>
+    <string name="actief">Actief</string>
+    <string name="passief">Passief</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="search">Search</string>
+    <string name="schaatsen">Schaatsen</string>
+    <string name="titelVoorkeuren">Klik hieronder je voorkeuren aan</string>
+    <string name="ibResetButtonDescription">Reset the preferences</string>
+    <string name="iconDescription">Icon of the activity</string>
+    <string name="previousScreenDescription">Arrow to previous screem</string>
+    <string name="nextScreenDescription">Arrow to next screen</string>
+
+
+</resources>
